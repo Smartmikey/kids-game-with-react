@@ -1,3 +1,4 @@
+
 const colors = {
     available: 'lightgray',
     used: 'lightgreen',
@@ -34,3 +35,9 @@ const colors = {
       return sums[utils.random(0, sums.length - 1)];
     },
   };
+
+export {
+   colors,
+   utils,
+    
+}

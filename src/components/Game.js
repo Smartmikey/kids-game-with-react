@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
-import "../utils";
-
+import {utils} from  "../utils";
+import  PlayAgain from "./PlayAgain";
+import  PlayNumber from "./PlayNumber";
+import  StarsDisplay from "./StarsDisplay";
 
 const Game = (props) => {
     const [stars, setStars] = useState(utils.random(1, 9));
@@ -87,4 +89,4 @@ const Game = (props) => {
     );
   };
   
-export default Game
+export default Game;
